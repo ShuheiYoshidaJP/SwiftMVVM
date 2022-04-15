@@ -16,6 +16,7 @@
 		021F2BA128090B8A009032F0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021F2BA028090B8A009032F0 /* ViewModel.swift */; };
 		021F2BA328090B99009032F0 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021F2BA228090B99009032F0 /* UserModel.swift */; };
 		021F2BA528090C56009032F0 /* ModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021F2BA428090C56009032F0 /* ModelProtocol.swift */; };
+		021F2BA728091411009032F0 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021F2BA628091411009032F0 /* ErrorModel.swift */; };
 		CDBFB0999FBDFCFB9146E952 /* libPods-SwiftMVVM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F87D5236942BB717A16351E /* libPods-SwiftMVVM.a */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		021F2BA028090B8A009032F0 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		021F2BA228090B99009032F0 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		021F2BA428090C56009032F0 /* ModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProtocol.swift; sourceTree = "<group>"; };
+		021F2BA628091411009032F0 /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
 		3F87D5236942BB717A16351E /* libPods-SwiftMVVM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftMVVM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63ED8E1CEF32044B7FB192C0 /* Pods-SwiftMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMVVM.release.xcconfig"; path = "Target Support Files/Pods-SwiftMVVM/Pods-SwiftMVVM.release.xcconfig"; sourceTree = "<group>"; };
 		9F95570A9347F9F77860A933 /* Pods-SwiftMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMVVM.debug.xcconfig"; path = "Target Support Files/Pods-SwiftMVVM/Pods-SwiftMVVM.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			children = (
 				021F2BA228090B99009032F0 /* UserModel.swift */,
 				021F2BA428090C56009032F0 /* ModelProtocol.swift */,
+				021F2BA628091411009032F0 /* ErrorModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -113,7 +116,6 @@
 				9F95570A9347F9F77860A933 /* Pods-SwiftMVVM.debug.xcconfig */,
 				63ED8E1CEF32044B7FB192C0 /* Pods-SwiftMVVM.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -222,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				021F2BA728091411009032F0 /* ErrorModel.swift in Sources */,
 				021F2B8E28090818009032F0 /* ViewController.swift in Sources */,
 				021F2BA528090C56009032F0 /* ModelProtocol.swift in Sources */,
 				021F2B8A28090818009032F0 /* AppDelegate.swift in Sources */,
