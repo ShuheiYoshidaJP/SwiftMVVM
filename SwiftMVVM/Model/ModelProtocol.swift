@@ -6,3 +6,9 @@
 //
 
 import Foundation
+import RxSwift
+
+protocol ModelProtocol {
+    func validate(passwordText: String?) -> Observable<Void>
+}
+
